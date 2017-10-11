@@ -1,0 +1,106 @@
+*{font-family: Trebuchet MS; font-size: 14px; color:#3A3A3A;}
+body, html{margin:0px; min-height:100%; height:auto; position:relative;}
+
+.alinear_iz{float:left;}
+.alinear_de{float:right;}
+.valign{vertical-align: middle;}
+#error1{font-size:12px; text-align:center; color:#900}
+a{color:#999999; text-decoration:none; transition:background-color 0.6s;}
+.separador{clear:both;height:0px!important}
+ul{list-style:none; margin:0; padding:0;}
+
+.botones{background-color:#0094D2; cursor:pointer; padding:2px 6px; display:inline-block; color:#FFF; border:none; transition:background-color 0.6s;}
+.botones:hover{background-color:#005082;}
+
+#inicio{margin:100px auto 20px auto; width:290px; font-size:36px; color:#8B9298;}
+#inicio1{margin:0 auto 0 auto; width:289px; background:#E5E5E5; padding:10px 0 5px 0; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+#inicio2{margin:0 auto 0 auto; width:272px; height:207px; color:#8B9298; font-size:18px; padding-left:17px;}
+#inicio2 p{line-height:40px; margin:0; padding:0; font-size:18px; color:#8B9298;}
+#inicio1 input[type="submit"]{font-size:18px;  padding:3px 15px;}
+#inicio2 .Caja_texto{width:250px; height:28px; font-size:18px;}
+#inicio2 .recordalme{font-size:12px; font-weight:bold;}
+
+#titulo{background:#0087BE; height:40px;}
+#titulo a{color:#FFFFFF; line-height:40px; display:inline-block; padding:0 10px 0 35px; margin-left:1px; background-color:#0094D2; background-repeat:no-repeat; background-position:10px center;}
+#titulo a:nth-child(1){background-image:url(imagesADM/i_inicio.png)}
+#titulo a:nth-child(2){background-image:url(imagesADM/i_misitio.png)}
+#titulo a:nth-child(3){background-image:url(imagesADM/i_salir.png)}
+#titulo a:hover{background-color:#005082;}
+h1{font-size:24px; color:#FFFFFF; font-weight:normal; float:left; line-height:40px; float:left; margin:0 0 0 12px;}
+
+#cuerpo{background:url(imagesADM/fondoaside.gif) repeat-y}
+aside{float:left; width:270px;}
+aside ul{margin-bottom:20px;}
+aside a{display:block; padding:10px 5px 10px 35px; background:#0094D2 url(imagesADM/i_lapiz.png) no-repeat 10px center; color:#FFF; border-bottom:1px solid #0087BE;}
+aside a.i_usuario{background-image:url(imagesADM/i_usuario.png);}
+aside a.i_email{background-image:url(imagesADM/i_email.png);}
+aside a:hover{background-color:#005082;}
+
+footer{background-color:#005082; height:20px; padding:0 10px;}
+footer *{color:#DDE0E5; font-size:10px; line-height:20px;}
+footer a{color:#BEC2C5;}
+
+
+#cuerpo2{float:left; position:relative;}
+#bienvenida td{font-size:36px; color:#CCC; text-align:center;}
+
+#tit_cuerpo{background:#87BE00; height:40px; line-height:40px; color:#FFF; margin-top:0; padding-left:20px; font-size:20px; font-weight:normal;}
+
+#botones_accion{margin-left:10px;}
+.agregar{background:#0094D2 url(imagesADM/i_agregar.png) no-repeat 5px center; color:#FFF; height:25px; line-height:25px; display:inline-block; padding:0 10px 0 25px;}
+.agregar:hover{background-color:#005082;}
+.navegacion .agregar{margin-left:10px;}
+
+.navegacion{margin-bottom:17px; height:25px;}
+.navegacion ul{float:right;}
+.navegacion ul li{float:left; background:#EAEAEA; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; background-repeat:no-repeat; background-position:center; height:25px; margin-right:3px;}
+.navegacion ul li:nth-child(1){background-image:url(imagesADM/i_ant.png); width:25px;}
+.navegacion ul li:nth-child(3){background-image:url(imagesADM/i_sig.png); width:25px; margin-right:10px;}
+.navegacion ul li:nth-child(2){line-height:25px; position:relative; padding:0 10px; cursor:default}
+.navegacion ul li.inactivo{opacity:.25; filter:alpha(opacity=25); background-color:#aaa;}
+.navegacion ul li.activo{cursor:pointer;}
+.navegacion div{display:none; width:100%; position:absolute; left:0; padding-top:3px;}
+.navegacion div a{display:block; background:#EAEAEA; padding:0 10px; color:#3A3A3A;}
+.navegacion div a:hover, .navegacion div a.activo{background:#DDD;}
+.navegacion div a:first-child{-moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+.navegacion div a:last-child{-moz-border-radius:0 0 5px 5px; -webkit-border-radius:0 0 5px 5px; border-radius:0 0 5px 5px;}
+.navegacion ul li:nth-child(2):hover div{display:block;}
+
+#tabla1{width:100%; border-collapse:collapse;}
+#tabla1 td{padding:0 10px; height:30px;}
+#tabla1 tr:nth-child(odd){background-color:#EEF;}
+#tabla1 tr:hover{background-color:#EEE;}
+#tabla1 tr td{cursor:pointer;}
+#tabla1 thead td{background:#DDD; font-weight:bold; cursor:default;}
+
+#tabla1 td a{height:28px; width:28px; display:inline-block;}
+#tabla1 td .editar{background:#0094D2 url(imagesADM/i_editar.png) no-repeat center;}
+#tabla1 td .editar:hover{background-color:#005082;}
+#tabla1 td .eliminar{background:#930 url(imagesADM/i_eliminar.png) no-repeat center;}
+#tabla1 td .eliminar:hover{background-color:#600;}
+
+
+.i_botones{height:25px; width:25px; display:inline-block; margin-left:0px; padding:0;}
+
+.i_lista{background:#999 url(imagesADM/i_lista.png) no-repeat center; margin-left:15px;}
+.i_lista:hover{background-color:#666;}
+.i_agregar{background:#0094D2 url(imagesADM/i_agregar.png) no-repeat center;}
+.i_agregar:hover{background-color:#005082;}
+.i_aceptar{background:#87BE00 url(imagesADM/i_aceptar.png) no-repeat center; margin-left:10px;}
+.i_aceptar:hover{background-color:#508200;}
+.i_eliminar{background:#930 url(imagesADM/i_eliminar.png) no-repeat center;}
+.i_eliminar:hover{background-color:#600;}
+
+#tabla2{border-collapse:collapse; width:100%;}
+#tabla2 td{padding:10px 15px;}
+#tabla2 input, #tabla2 select, #tabla2 textarea{border:1px solid #CCC; padding:5px; margin:3px 0;}
+#tabla2 h3{font-size:16px; color:#666; margin:0;}
+#tabla2 tr:nth-child(odd){background-color:#EEF;}
+
+.rojo{color:#900; font-size:10px; text-transform:uppercase; color:}
+#alerta{margin:40px auto 0 auto; background:#DFD; padding:40px 20px; width:600px; text-align:center; color:#666; font-size:18px;}
+#alerta p{margin:30px 0 0 0;}
+#alerta a{background:#87BE00 url(imagesADM/i_aceptar.png) no-repeat 5px center; margin-left:10px; color:#FFF; padding:5px 5px 5px 25px;}
+#alerta a:hover{background-color:#508200;}
+
+#encadenados{margin-left:15px;}

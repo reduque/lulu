@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+AddDefaultCharset UTF-8
+	RewriteEngine on
+
+	Rewriterule ^idioma idioma.php
+	Rewriterule ^servicios servicios.php
+	Rewriterule ^nosotros nosotros.php
+	Rewriterule ^carrito carrito.php
+	Rewriterule ^checkout checkout.php
+	Rewriterule ^suscripcion suscripcion.php
+	Rewriterule ^categorias/(.+)/(.+) categorias.php?idcategoria=$1&title=$2 [L]
+	Rewriterule ^categorias categorias.php
+	Rewriterule ^producto/(.+)/(.+) producto1.php?idproducto=$1&title=$2
+
+</IfModule>
